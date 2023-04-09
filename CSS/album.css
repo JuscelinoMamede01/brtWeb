@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sacramento&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #deecec;
+    text-align: center;
+    margin: 0;
+    padding:0;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 5px 5px -3px black;
+    position: fixed;
+    width: 100%;
+    
+}
+.logo-img {
+    width: 150px;
+
+}
+.navbar{
+    display: flex;
+    
+}
+.menu {
+    display: flex;
+    
+}
+.menu-li{
+    list-style-type: none;
+    margin-top: 30px;
+    padding-left: 2rem;
+}
+.login-btn{
+    width: 100px;
+    height: 20px;
+    margin: 45px 10px 0 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 5%;
+    
+}
+.btn-login{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background-color: #004db5;
+    height: 100px;
+    margin-top: 150px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.linha1, .linha2 , .linha3{
+    width: 400px;
+}
+.social-media{
+    margin: 0 0 0 10px;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+
+
+}
+
+.item-social-media{
+    background-color: #deecec;
+    margin: 15px 10px 0 15px;
+    height:35px;
+    width: 35px;
+    border: 1px solid #bdc3c7;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+}
+.redes_socias_frase{
+    margin: 0;
+    padding-top: 15px;
+    color:beige;
+}
+.footer-sociais{
+    margin: 0 auto;
+    width:150px;
+    text-align: center;
+}

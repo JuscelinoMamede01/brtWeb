@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/saibaMais.css">
+  <script src="https://kit.fontawesome.com/bb16043013.js" crossorigin="anonymous"></script>
+  <title>BRT-RECIFE</title>
+</head>
+
+<body>
+  <header class="header">
+      <div>
+        <a href="index.html"><img src="../imagens/logogrupo5.jpg" alt="logo" class="logo-img"></a>
+      </div>
+      <div class="navbar">
+        <ul class="menu">
+          <li class="menu-li"><a href="index.html">Home</a></li>
+          <li class="menu-li"><a href="sobreNos.html">Sobre nós</a></li>
+          <li class="menu-li"><a href="SaibaMais.html">Saiba mais</a></li>
+          <li class="menu-li"><a href="album.html">Álbum</a></li>
+        </ul>
+        <button class="login-btn"><a href="../login.html" class="btn-login">LOGIN</a></button>
+      </div>
+  </header>
+  <main>
+    <div class="form-title">
+      <h1> Em que posso ajudar? </h1>
+      <p>Preencha o formulário abaixo.</p>
+    </div>
+    <form action="Script_do_Formulario.php" method="post" class="form">
+    
+    <!-- DADOS PESSOAIS-->
+    <fieldset class="fieldset1">
+    <legend>Tire sua dúvida</legend>
+    <table cellspacing="10" class="table1">
+      <tr>
+        <td>
+          <label for="nome">Nome:<input type="text" id="nome" class="input_esc"> </label>
+        </td>
+        
+      </tr>
+      <tr>
+        <td >
+          <label for="telefone">Telefone: <input type="text" id="telefone" class="input_esc"> </label>
+        </td>
+        
+      </tr>
+      <tr>
+        <td>
+          <label for="email">E-mail: <input type="text" id="email"  class="input_esc"></label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="message">Digite sua mensagem aqui: <textarea name="message" id="message" cols="30" rows="10" class="input_esc"></textarea></label>
+        </td>
+      </tr>
+    </table>
+    <div class="btn-align">
+      <input type="submit" value="Cadastrar">
+      <input type="reset" value="Limpar">
+    </div>
+    </fieldset>   
+    </form>
+  </main>
+  <footer>
+    <div class="footer-sociais">
+      <p class="redes_socias_frase">Redes Sociais</p>
+      <ul class="social-media">
+        <li class="item-social-media"><a href="https://www.instagram.com/granderecifeoficial/" target="_blank"><i class="fa-brands fa-instagram" ></i></a></li>
+        <li class="item-social-media"><a href="https://www.youtube.com/channel/UCw9vIR7jUVbrHk-Xw8xFXuw" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+      </ul>
+    </div>
+
+  </footer>
+</body>
+
+</html>

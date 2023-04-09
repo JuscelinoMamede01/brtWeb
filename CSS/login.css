@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sacramento&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../imagens/6.jpg');
+    
+}
+.title{
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 10px;
+    font-size: 12pt;
+}
+.container{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+li{
+    list-style-type: none;
+}
+.content{ 
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    background-color: #004db5;
+}
+.first_column{
+    padding-top:77px;
+    text-align: center;
+    justify-content: center;
+    color: white;   
+}
+.second_column{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+
+}
+.btnLogin{
+    justify-content: center;
+    margin: 10px;
+    width: 80%;
+    height: 25px;
+    background-color: #004db5;
+    border: none;
+    border-radius: 5px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+input{
+    margin: 10px;
+    display: block;
+}
+
+p{
+    margin: 10px;
+}
